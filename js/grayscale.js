@@ -50,10 +50,10 @@ function init() {
   // For more options see: https://developers.google.com/maps/documentation/javascript/reference#MapOptions
   var mapOptions = {
     // How zoomed in you want the map to start at (always required)
-    zoom: 15,
+    zoom: 14,
 
     // The latitude and longitude to center the map (always required)
-    center: new google.maps.LatLng(40.6700, -73.9400), // New York
+    center: new google.maps.LatLng(42.338116, -71.047485), // Southie
 
     // Disables the default Google Maps UI components
     disableDefaultUI: true,
@@ -180,11 +180,11 @@ function init() {
   map = new google.maps.Map(mapElement, mapOptions);
 
   // Custom Map Marker Icon - Customize the map-marker.png file to customize your icon
-  var image = 'img/map-marker.svg';
-  var myLatLng = new google.maps.LatLng(40.6700, -73.9400);
-  var beachMarker = new google.maps.Marker({
-    position: myLatLng,
-    map: map,
-    icon: image
-  });
+  // var image = 'img/map-marker.svg';
+  // var myLatLng = new google.maps.LatLng(42.338116, -71.047485);
+  // var beachMarker = new google.maps.Marker({
+  //   position: myLatLng,
+  //   map: map,
+  //   icon: image
+  // });
 }
