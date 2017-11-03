@@ -100,7 +100,7 @@ a {
   padding: 200px 0;
   text-align: center;
   color: #fff;
-  background: url("../img/IMG_20170629_200620-2.jpg") no-repeat bottom center scroll;
+  background: url("../img/cathedral_ledge_gradient.png") no-repeat bottom center scroll;
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -182,6 +182,17 @@ a {
     border: 1px solid #42DCA3;
     outline: none;
     background-color: #42DCA3; }
+
+.logo {
+  width: 100px;
+  padding: 0px 10px;
+}
+
+.projects {
+  width: 300px;
+  height: 225px;
+  padding: 10px 10px;
+}
 
 ul.banner-social-buttons {
   margin-top: 0; }
