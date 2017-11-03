@@ -93,26 +93,40 @@
     <!-- Portfolio Section -->
     <section id="portfolio" class="portfolio-section content-section text-center">
       <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
+        <div class="col-lg-8 mx-auto">
+          <div class="row justify-content-around">
             <h2>Portfolio</h2>
             <ul class="list-inline">
               <li class="list-inline-item">
                 <div class="portfolio-box">
                   <h3>Tic-Tac-Bro</h3>
-                  <img src="img/1508782900551.png" width=375px height=281px>
+                  <a href="https://mdcollins80.github.io/tic-tac-toe">
+                    <img class="projects" src="img/1508782900551.png">
+                  </a>
                 </div>
               </li>
               <li class="list-inline-item">
                 <div class="portfolio-box">
                   <h3>Pick-a-Winner</h3>
-                  <img src="img/1508783103582.png" width=375px height=281px>
+                  <a href="https://mdcollins80.github.io/pick-a-winner">
+                    <img class="projects" src="img/1508783103582.png">
+                  </a>
                 </div>
               </li>
               <li class="list-inline-item">
                 <div class="portfolio-box">
                   <h3>Nozama.com</h3>
-                  <img src="img/1508783167948.png" width=375px height=281px>
+                  <a href="https://mdcollins80.github.io/nozama">
+                    <img class="projects" src="img/1508783167948.png">
+                  </a>
+                </div>
+              </li>
+              <li class="list-inline-item">
+                <div class="portfolio-box">
+                  <h3>360 Review</h3>
+                  <a href="https://mdcollins80.github.io/ThreeSixty-Review">
+                    <img class="projects" src="">
+                  </a>
                 </div>
               </li>
             </ul>
@@ -124,29 +138,89 @@
     <!-- Skills Section -->
     <section id="skills" class="skill-section content-section text-center">
       <div class="container">
-        <div class="col-lg-8 mx-auto">
+        <div class="col-lg-8 mx-auto"> <!-- TRY USING FLEXBOX HERE!! -->
           <h2>Skills</h2>
-          <p>HTML, CSS, JavaScript, Ruby, Rails, etc.</p>
-          <div class="row">
+          <div class="row justify-content-around">
             <figure>
-              <img src="img/JS_logo_green.svg" width=100px>
-              <figcaption>JavaScript</figcaption>
+              <img class="logo" src="img/logos/atom_logo.svg">
+              <figcaption>Atom</figcaption>
             </figure>
             <figure>
-              <img src="img/HTML5_logo_green.svg" width=100px>
-              <figcaption>HTML</figcaption>
+              <img class="logo" src="img/logos/aws_logo.svg">
+              <figcaption>AWS</figcaption>
             </figure>
             <figure>
-              <img src="img/CSS3_logo_green.svg" width=100px>
+              <img class="logo" src="img/logos/bootstrap_logo.svg">
+              <figcaption>Bootstrap</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/CSS3_logo_green.svg">
               <figcaption>CSS</figcaption>
             </figure>
             <figure>
-              <img src="img/Ruby_logo_green.svg" width=100px>
+              <img class="logo" src="img/logos/ember.svg">
+              <figcaption>Ember</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/express_logo.svg">
+              <figcaption>Express</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/git_logo.svg">
+              <figcaption>Git</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/github_logo.svg">
+              <figcaption>GitHub</figcaption>
+            </figure>
+
+            <figure>
+              <img class="logo" src="img/logos/google_logo.svg">
+              <figcaption>Google</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/handlebars.svg">
+              <figcaption>Handlebars</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/heroku_logo.svg">
+              <figcaption>Heroku</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/HTML5_logo_green.svg">
+              <figcaption>HTML</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/jquery_logo.svg">
+              <figcaption>JQuery</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/JS_logo_green.svg">
+              <figcaption>JavaScript</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/mongodb_logo.svg">
+              <figcaption>MongoDB</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/npm_logo.svg">
+              <figcaption>NPM</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/postgresql.svg">
+              <figcaption>PostGreSQL</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/Rails_logo_green.svg">
+              <figcaption>Rails</figcaption>
+            </figure>
+            <figure>
+              <img class="logo" src="img/logos/Ruby_logo_green.svg">
               <figcaption>Ruby</figcaption>
             </figure>
             <figure>
-              <img src="img/Rails_logo_green.svg" width=100px>
-              <figcaption>Rails</figcaption>
+              <img class="logo" src="img/logos/Sass_logo.svg">
+              <figcaption>Sass</figcaption>
             </figure>
           </div>
         </div>
@@ -190,7 +264,7 @@
       <div class="container">
         <div class="col-lg-8 mx-auto">
           <h2>Resume</h2>
-          <a href="./resume_placeholder.pdf" class="btn btn-default btn-lg">View Resume</a>
+          <a href="./resume.pdf" class="btn btn-default btn-lg">View Resume</a>
         </div>
       </div>
     </section>
@@ -199,11 +273,11 @@
     <div id="map"></div>
 
     <!-- Footer -->
-    <footer>
+    <!-- <footer>
       <div class="container text-center">
         <p>Nice Little Footer Message</p>
       </div>
-    </footer>
+    </footer> -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
